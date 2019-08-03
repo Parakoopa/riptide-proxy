@@ -19,9 +19,7 @@ setup(
     install_requires=[
         'riptide-lib >= 0.5, < 0.6',
         'tornado >= 6.0',
-        'Click >= 7.0',
-        'python-prctl >= 1.7; sys_platform == "linux"',
-        'certauth >= 1.3'
+        'Click >= 7.0'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
